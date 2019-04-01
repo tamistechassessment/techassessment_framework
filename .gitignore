@@ -1,0 +1,18 @@
+#Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package files
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+*.iml
+*.old
+*.yes
+.idea/
+target/
