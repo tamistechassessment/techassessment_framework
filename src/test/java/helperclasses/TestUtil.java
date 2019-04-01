@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 //These methods are used to perform actions needed to support function performed on the TMDB APIs
-public class testutil extends basemethods {
+public class TestUtil extends BaseMethods {
     private RequestSpecification request= RestAssured.given();
 
     protected String constructMovieDetailsEndpointURL(String movieId, String baseURL, String apikey)

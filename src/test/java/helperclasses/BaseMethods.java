@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class basemethods {
+public class BaseMethods {
 	private static Properties ER = null;
     protected static Properties TESTDATA = null;
     private static WebDriver dr = null;

@@ -1,12 +1,12 @@
 package testcases;
 
-import helperclasses.testutil;
+import helperclasses.TestUtil;
 import org.junit.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class saucedemo_uitests extends testutil {
+public class Saucedemo_UItests extends TestUtil {
 
 
     @BeforeMethod
@@ -18,7 +18,7 @@ public class saucedemo_uitests extends testutil {
     //Testcase ID:
     //Description: On Saucedemo webpage, login, select products and verify products are added to cart
     @Test
-    public void saucedemo()throws Exception
+    public void sauceDemo()throws Exception
     {
         String productOnesie = (TESTDATA.getProperty("productName1"));
         String productBikeLight = (TESTDATA.getProperty("productName2"));
@@ -39,7 +39,7 @@ public class saucedemo_uitests extends testutil {
         Assert.assertTrue(itemOneIsInCart && itemtwoIsInCart);
     }
     @AfterMethod
-    public void wrapup ()
+    public void wrapUp ()
     {
         driver.quit();
     }

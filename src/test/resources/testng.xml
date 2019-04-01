@@ -3,8 +3,8 @@
 <suite name="Suite">
     <test name="Test">
         <classes>
-            <class name="testcases.tmdbAPI_tests"/>
-            <class name="testcases.saucedemo_uitests"/>
+            <class name="testcases.TMDBAPI_Tests"/>
+            <class name="testcases.Saucedemo_UItests"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
